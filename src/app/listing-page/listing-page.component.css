@@ -1,0 +1,25 @@
+.listing-page{
+    margin: 15px;
+    padding: auto;
+}
+
+.action .edit:hover{
+    cursor: pointer;
+    padding: 2px;
+}
+
+.action .delete:hover{
+    cursor: pointer;
+}
+
+.action .edit{
+    padding: 2px;
+}
+
+.action .delete{
+    padding: 2px;
+}
+
+.header{
+    text-align: center;
+}

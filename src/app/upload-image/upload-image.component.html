@@ -1,0 +1,26 @@
+<div class="image-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 cn-img">
+                <div class="form-group">
+                    <label for="imageType">image type</label>
+                    <input #imageType type="text" class="form-control" id="imageType" 
+                    placeholder="imageType">
+                </div>
+                <div class="form-group">
+                    <label class="image-upload-container btn btn-bwm">
+                        <span>select image</span>
+                        <input #imageInput
+                        type="file"
+                        accept="image/*"
+                        (change)="processFile(imageInput)"
+                        >
+                    </label>                
+                </div>
+
+                <button class="btn btn-primary" (click)="submitData();">submit</button>
+                <button class="btn btn-primary" (click)="clearInputs();">reset</button>
+            </div>
+        </div>
+    </div>
+</div>
